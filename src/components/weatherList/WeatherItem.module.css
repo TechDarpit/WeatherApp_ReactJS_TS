@@ -1,0 +1,42 @@
+.item {
+  margin: 2rem 0rem;
+  padding: 1rem 2rem;
+  max-width: 40rem;
+  justify-content: space-between;
+  align-items: flex-end;
+  display: inline-flexbox;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border: 2px solid #1c2135;
+}
+
+/* h1 {
+  font-size: 48px;
+  margin: 0rem;
+} */
+
+.icon {
+  float: right;
+  margin-top: -7.5rem;
+  margin-right: 2rem;
+}
+
+.morning {
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffedb8);
+  color: #17272e;
+}
+
+.afternoon {
+  background: linear-gradient(to right, #ffedb8, #f8af6f, #f3904f);
+  color: #2d3c42;
+}
+
+.evening {
+  background: linear-gradient(to right, #f3904f, #3b4371, #0f2027);
+  color: #f0f2f2;
+}
+
+.night {
+  background: linear-gradient(to right, #0f2027, #203a43, #2980b9);
+  color: #c3c8c9;
+}
